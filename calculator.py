@@ -7,9 +7,6 @@ One function per operation, in order.
 # first push! part 2!
 import math
 
-def time():
-    time = 0
-
 
 def add(a, b):
     return (a + b)
