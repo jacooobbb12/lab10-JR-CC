@@ -4,7 +4,7 @@ calculator.py
 
 One function per operation, in order.
 """
-# first push! part 2!
+# first push! part 3 !
 import math
 
 def add(a, b):
