@@ -8,6 +8,7 @@ One function per operation, in order.
 import math
 def time():
     time = 0
+    return time
 
 def add(a, b):
     return (a + b)
