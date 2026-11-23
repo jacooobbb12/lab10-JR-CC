@@ -7,6 +7,16 @@ One function per operation, in order.
 # first push! part 3 !
 import math
 
+def square_root(a):
+    if a < 0:
+        raise ValueError
+
+    else:
+        return math.sqrt(a)
+
+def hypotenuse(a,b):
+    return math.hypot(a,b)
+
 def add(a, b):
     return (a + b)
 
