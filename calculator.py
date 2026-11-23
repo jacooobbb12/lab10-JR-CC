@@ -4,32 +4,38 @@ calculator.py
 
 One function per operation, in order.
 """
+# first push! part 3 !
 import math
 
-# First example
 def add(a, b):
-    return a + b
+    return (a + b)
 
-def sub(a, b):
-    return a - b
+def subtract(a, b):
+    return (a - b)
 
-def mul(a, b):
-    return a * b
+def multiply(a, b):
+    return (a * b)
 
-def div(a, b):
+def divide(a, b):
     if a == 0:
-        raise ValueError("Cannot divide by 0.")
-    return b / a
+        raise ZeroDivisionError
 
-def log(a, b):
-    if b <= 0:
-        raise ValueError("Argument must be positive.")
-    if a <= 0 or a == 1:
-        raise ValueError("Base must be positive and not equal to 1.")
-    return math.log(b, a)
+    else:
+        return (b/a)
 
-def exp(a, b):
-    return math.pow(a, b)
+def logarithm(a, b):
+    if b < 0:
+        raise ValueError
+
+    else:
+        math.log(a, b)
+
+def exponent(a, b):
+    math.pow(a, b)
+
+
+
+
 
 
 
