@@ -1,11 +1,26 @@
+#https://github.com/jacooobbb12/lab10-JR-CC
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
+
+Partner 1: Caleb Clements
+Partner 2: Jacob Rosen
 """
 # first push! part 3 !
 import math
+
+def square_root(a):
+    if a < 0:
+        raise ValueError
+
+    else:
+        return math.sqrt(a)
+
+def hypotenuse(a,b):
+    return math.hypot(a,b)
 
 def add(a, b):
     return (a + b)
