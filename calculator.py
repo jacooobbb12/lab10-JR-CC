@@ -3,6 +3,10 @@ calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
+
+https://github.com/jacooobbb12/lab10-JR-CC
+Partner 1: Caleb Clements
+Partner 2: Jacob Rosen
 """
 # first push! part 3 !
 import math
@@ -38,7 +42,7 @@ def logarithm(a, b):
         raise ValueError
 
     else:
-        math.log(a, b)
+        return math.log(a, b)
 
 def exponent(a, b):
     math.pow(a, b)
